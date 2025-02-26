@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Cocogoose';
+    src: url('fonts/Jost-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Cocogoose2';
+    src: url('fonts/Jost-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Cocogoose3';
+    src: url('fonts/Jost-Light.ttf') format('truetype');
+}
+
+h1, h2 {
+    font-family: 'Cocogoose';
+    font-size: 50px;
+}
+
+h3 {
+    font-family: 'Cocogoose2';
+    font-size: 20px;
+}
+
+h4 {
+    font-family: 'Cocogoose2';
+    font-size: 15px;
+}
+p {
+    font-family: 'Cocogoose3';
+    line-height: 1.2;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+    padding: 30px;
+}
+
+body {
+    background-color: #070F2B;
+    color: antiquewhite;
+}
+
+.profile img {
+    width: auto;
+    height: 200px;
+    display: block;
+    border-radius: 40px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.left {
+    background-color: #1B1A55;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.right {
+    background-color: #1B1A55;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.portofolio {
+    text-align: center;
+}
+
+.portofolio video{
+    height: 200px;
+    width: auto;
+    align-content: center;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
